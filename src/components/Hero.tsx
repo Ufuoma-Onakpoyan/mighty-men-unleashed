@@ -1,24 +1,16 @@
 import { Button } from "./ui/button";
 import { Crown, Users, Award } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen hero-bg flex items-center justify-center text-center px-4">
+  return <section className="relative min-h-screen hero-bg flex items-center justify-center text-center px-4">
       {/* Logo/Brand Section */}
       <div className="max-w-6xl mx-auto animate-fade-in-up">
         <div className="flex items-center justify-center mb-8">
-          <img 
-            src="/lovable-uploads/44649325-b43a-434c-9dfb-588982e4486b.png" 
-            alt="The Mighty Men Scholars Program Logo" 
-            className="h-32 w-auto mb-6"
-          />
+          <img src="/lovable-uploads/44649325-b43a-434c-9dfb-588982e4486b.png" alt="The Mighty Men Scholars Program Logo" className="h-32 w-auto mb-6" />
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-glow">
           THE MIGHTY MEN
-          <span className="block gradient-accent bg-clip-text text-transparent">
-            SCHOLARS PROGRAM
-          </span>
+          
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed">
@@ -28,18 +20,11 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button 
-            size="lg" 
-            className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg font-semibold rounded-full"
-          >
+          <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg font-semibold rounded-full">
             Apply Now
             <Award className="ml-2 h-5 w-5" />
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-white text-white hover:bg-white hover:text-primary px-8 py-6 text-lg rounded-full"
-          >
+          <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary px-8 py-6 text-lg rounded-full">
             Learn More
             <Users className="ml-2 h-5 w-5" />
           </Button>
@@ -55,8 +40,6 @@ const Hero = () => {
           <cite className="text-accent font-semibold mt-2 block">— 1 Samuel 22:1-2</cite>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
