@@ -29,7 +29,8 @@ const ContactFooter = () => {
               <CardContent className="text-center">
                 <p className="text-muted-foreground mb-3">Speak directly with our team</p>
                 <p className="text-lg font-semibold">+234 812 345 6789</p>
-                <p className="text-lg font-semibold">+234 809 876 5432</p>
+                <p className="text-sm text-muted-foreground mt-4 mb-2">WhatsApp us here (WhatsApp only)</p>
+                <p className="text-lg font-semibold">09121245812</p>
               </CardContent>
             </Card>
 
