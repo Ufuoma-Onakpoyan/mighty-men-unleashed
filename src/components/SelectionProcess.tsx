@@ -44,7 +44,7 @@ const SelectionProcess = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="selection" className="py-20 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4">
         {/* Target Beneficiaries */}
         <div className="text-center mb-16">

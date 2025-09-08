@@ -22,10 +22,10 @@ const AboutMission = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="about" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4">
         {/* Vision & Mission */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        <div id="mission" className="grid md:grid-cols-2 gap-8 mb-16">
           <Card className="bg-primary text-primary-foreground">
             <CardHeader>
               <CardTitle className="flex items-center text-2xl">

@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import { Crown, Users, Award } from "lucide-react";
 const Hero = () => {
-  return <section className="relative min-h-screen hero-bg flex items-center justify-center text-center px-4">
+  return <section id="hero" className="relative min-h-screen hero-bg flex items-center justify-center text-center px-4 pt-16">
       {/* Logo/Brand Section */}
       <div className="max-w-6xl mx-auto animate-fade-in-up">
         <div className="flex items-center justify-center mb-8">
