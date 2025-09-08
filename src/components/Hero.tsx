@@ -5,7 +5,7 @@ const Hero = () => {
       {/* Logo/Brand Section */}
       <div className="max-w-6xl mx-auto animate-fade-in-up">
         <div className="flex items-center justify-center mb-8">
-          <img src="/lovable-uploads/44649325-b43a-434c-9dfb-588982e4486b.png" alt="The Mighty Men Scholars Program Logo" className="h-32 w-auto mb-6" />
+          <img src="/lovable-uploads/4933243a-2089-47db-9bf5-8bfcd6bff00a.png" alt="The Mighty Men Scholars Program Logo" className="h-32 w-auto mb-6" />
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-glow">
