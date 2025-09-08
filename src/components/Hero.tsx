@@ -20,11 +20,30 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg font-semibold rounded-full">
+          <Button 
+            size="lg" 
+            className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg font-semibold rounded-full"
+            onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')}
+          >
             Apply Now
             <Award className="ml-2 h-5 w-5" />
           </Button>
-          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full"
+            onClick={() => {
+              const element = document.getElementById('contact');
+              if (element) {
+                const headerOffset = 80;
+                const elementPosition = element.offsetTop - headerOffset;
+                window.scrollTo({
+                  top: elementPosition,
+                  behavior: "smooth"
+                });
+              }
+            }}
+          >
             Learn More
             <Users className="ml-2 h-5 w-5" />
           </Button>

@@ -70,7 +70,7 @@ const Header = () => {
               Get Info
             </Button>
             <Button
-              onClick={() => scrollToSection("contact")}
+              onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')}
               className="bg-accent text-accent-foreground hover:bg-accent/90"
             >
               Apply Now
@@ -128,7 +128,7 @@ const Header = () => {
                 </Button>
                 <Button
                   className="w-full bg-accent text-accent-foreground hover:bg-accent/90"
-                  onClick={() => scrollToSection("contact")}
+                  onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')}
                 >
                   Apply Now
                 </Button>
