@@ -5,7 +5,7 @@ const Hero = () => {
       {/* Logo/Brand Section */}
       <div className="max-w-6xl mx-auto animate-fade-in-up">
         <div className="flex items-center justify-center mb-8">
-          <img src="/lovable-uploads/4933243a-2089-47db-9bf5-8bfcd6bff00a.png" alt="The Mighty Men Scholars Program Logo" className="h-32 w-auto mb-6" />
+          
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-glow">
@@ -20,30 +20,21 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button 
-            size="lg" 
-            className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg font-semibold rounded-full"
-            onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')}
-          >
+          <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-6 text-lg font-semibold rounded-full" onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')}>
             Apply Now
             <Award className="ml-2 h-5 w-5" />
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full"
-            onClick={() => {
-              const element = document.getElementById('contact');
-              if (element) {
-                const headerOffset = 80;
-                const elementPosition = element.offsetTop - headerOffset;
-                window.scrollTo({
-                  top: elementPosition,
-                  behavior: "smooth"
-                });
-              }
-            }}
-          >
+          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full" onClick={() => {
+          const element = document.getElementById('contact');
+          if (element) {
+            const headerOffset = 80;
+            const elementPosition = element.offsetTop - headerOffset;
+            window.scrollTo({
+              top: elementPosition,
+              behavior: "smooth"
+            });
+          }
+        }}>
             Learn More
             <Users className="ml-2 h-5 w-5" />
           </Button>
