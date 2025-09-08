@@ -5,15 +5,15 @@ const Hero = () => {
       {/* Logo/Brand Section */}
       <div className="max-w-6xl mx-auto animate-fade-in-up">
         <div className="flex items-center justify-center mb-8">
-          <img src="/lovable-uploads/44649325-b43a-434c-9dfb-588982e4486b.png" alt="The Mighty Men Scholars Program Logo" className="h-32 w-auto mb-6" />
+          
         </div>
         
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-glow">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-glow">
           THE MIGHTY MEN
           
         </h1>
         
-        <p className="text-xl md:text-2xl text-foreground/80 mb-8 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed">
           Transforming underprivileged yet academically sound young individuals into 
           <span className="text-accent font-semibold"> spiritually vibrant</span> and 
           <span className="text-accent font-semibold"> economically influential</span> citizens.
@@ -24,16 +24,16 @@ const Hero = () => {
             Apply Now
             <Award className="ml-2 h-5 w-5" />
           </Button>
-          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-6 text-lg rounded-full">
+          <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary px-8 py-6 text-lg rounded-full">
             Learn More
             <Users className="ml-2 h-5 w-5" />
           </Button>
         </div>
 
         {/* Scripture Foundation */}
-        <div className="bg-primary/5 backdrop-blur-sm rounded-2xl p-6 max-w-4xl mx-auto border border-primary/10">
+        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 max-w-4xl mx-auto">
           <Crown className="h-8 w-8 text-accent mx-auto mb-4" />
-          <blockquote className="text-lg text-foreground/70 italic">
+          <blockquote className="text-lg text-gray-200 italic">
             "And everyone that was in distress, and everyone that was in debt, and everyone that was discontented, 
             gathered themselves unto him; and he became a captain over them..."
           </blockquote>
