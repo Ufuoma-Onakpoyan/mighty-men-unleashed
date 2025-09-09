@@ -22,13 +22,13 @@ const ContactFooter = () => {
                 <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                   <Phone className="h-8 w-8 text-accent-foreground" />
                 </div>
-                <CardTitle>Call Us</CardTitle>
+                <CardTitle>WhatsApp Us</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-muted-foreground mb-3">Speak directly with our team on</p>
+                <p className="text-muted-foreground mb-3">Message us directly on WhatsApp</p>
                 
-                <p className="text-sm text-muted-foreground mt-4 mb-2">WhatsApp us here (WhatsApp only)</p>
-                <p className="text-lg font-semibold">09121245812</p>
+                <p className="text-sm text-muted-foreground mt-4 mb-2">WhatsApp only - No calls</p>
+                <p className="text-lg font-semibold">+234 912 124 5812</p>
               </CardContent>
             </Card>
 
