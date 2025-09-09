@@ -101,7 +101,7 @@ const ContactFooter = () => {
                 <li><a href="#mission" className="text-primary-foreground/80 hover:text-accent transition-colors">Our Mission</a></li>
                 <li><a href="#selection" className="text-primary-foreground/80 hover:text-accent transition-colors">Selection Process</a></li>
                 <li><a href="#contact" className="text-primary-foreground/80 hover:text-accent transition-colors">Contact</a></li>
-                <li><a href="#apply" className="text-primary-foreground/80 hover:text-accent transition-colors">Apply Now</a></li>
+                <li><button onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')} className="text-primary-foreground/80 hover:text-accent transition-colors text-left">Apply Now</button></li>
               </ul>
             </div>
 
