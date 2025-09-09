@@ -1,10 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Crown } from "lucide-react";
-
 const ContactFooter = () => {
-  return (
-    <>
+  return <>
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4">
@@ -27,8 +25,8 @@ const ContactFooter = () => {
                 <CardTitle>Call Us</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-muted-foreground mb-3">Speak directly with our team</p>
-                <p className="text-lg font-semibold">+234 812 345 6789</p>
+                <p className="text-muted-foreground mb-3">Speak directly with our team on</p>
+                
                 <p className="text-sm text-muted-foreground mt-4 mb-2">WhatsApp us here (WhatsApp only)</p>
                 <p className="text-lg font-semibold">09121245812</p>
               </CardContent>
@@ -58,11 +56,7 @@ const ContactFooter = () => {
                   Apply now and join the community of mighty scholars.
                 </p>
                 <div className="flex justify-center">
-                  <Button 
-                    size="lg"
-                    className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-3 text-lg rounded-full"
-                    onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')}
-                  >
+                  <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-3 text-lg rounded-full" onClick={() => window.open('https://tinyurl.com/tmmscholars', '_blank')}>
                     Apply Now
                   </Button>
                 </div>
@@ -134,8 +128,6 @@ const ContactFooter = () => {
           </div>
         </div>
       </footer>
-    </>
-  );
+    </>;
 };
-
 export default ContactFooter;
