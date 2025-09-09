@@ -5,7 +5,7 @@ import { Users, GraduationCap, CheckCircle, FileText, Search, UserCheck } from "
 const SelectionProcess = () => {
   const targetBeneficiaries = [
     "Ages 16-26",
-    "Orphans and financially disadvantaged youth",
+    "Financially disadvantaged youth",
     "Must demonstrate academic potential and Christian values",
     "Must have guardian consent and support"
   ];
