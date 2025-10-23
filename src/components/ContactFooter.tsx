@@ -28,7 +28,7 @@ const ContactFooter = () => {
                 <p className="text-muted-foreground mb-3">Message us directly on WhatsApp</p>
                 
                 <p className="text-sm text-muted-foreground mt-4 mb-2">WhatsApp only - No calls</p>
-                <p className="text-lg font-semibold">+234 912 124 5812</p>
+                <p className="text-lg font-semibold">+234 815 263 5630</p>
               </CardContent>
             </Card>
 

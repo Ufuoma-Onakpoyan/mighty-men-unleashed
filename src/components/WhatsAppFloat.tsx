@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "2349121245812"; // Remove the + and 0, replace with country code 234
+    const phoneNumber = "2348152635630"; // Remove the + and 0, replace with country code 234
     const message = "Hello! I'm interested in The Mighty Men Scholars Program.";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, "_blank");
