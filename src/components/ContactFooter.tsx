@@ -126,14 +126,14 @@ const ContactFooter = () => {
               Built with faith, hope, and love for the next generation.
             </p>
             <p className="text-primary-foreground/60 mt-2">
-              Website by{" "}
+              Created by Ufuoma at{" "}
               <a
                 href="https://elevatewebandmarketing.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:underline"
               >
-                Elevate Web and Marketing
+                elevatewebandmarketing.com
               </a>
             </p>
           </div>
